@@ -2,7 +2,7 @@ const main = {
   name: 'Sushma Goutam',
   mail: 'write2sushma@gmail.com',
   img: 'https://avatars2.githubusercontent.com/u/6429329?s=400&u=5990a6896990a005af7a58f480de0854fb2a2ff8&v=4',
-  role: ['Senior Software Developer'],
+  role: ['Software Developer'],
   // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [    
     {
