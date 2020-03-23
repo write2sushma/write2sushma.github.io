@@ -1,72 +1,58 @@
 <!DOCTYPE html>
-<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="description" content="Write2sushma.GitHub.io : My Public Profile">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Write2sushma.GitHub.io : My Public Profile">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">-->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>Write2sushma.GitHub.io</title>
+  <link rel="shortcut icon" href="./user.png" />
+  <!-- StyleSheets -->
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+ 
+</head>
 
-    <title>Write2sushma.GitHub.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/write2sushma">View on GitHub</a>
-
-          <h1 id="project_title">Sushma Goutam</h1>
-
-        </header>
+<body>
+  <div id="main" class="relative h-screen border-b-2 lg:grid lg:grid-cols-2 lg:gap-4">
+    <!-- CSS: right sight border as line seperator 
+      - Phone top - down
+      - Lap right left.
+    -->
+    <div id="left" class="left lg:my-0 my-20 ">
+      <div class="imgBorder border-r-2">
+        <img id='img' src="" alt="" class="img m-auto w-64 main-image rounded-lg" >
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-my-github-page" class="anchor" href="#welcome-to-my-github-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello there, welcome to my public profile at GitHub!</h3>
-
-<p>This is the online home of Sushma, a software professional in Germany. 
-You will also find some interesting stuff which is gathered from my career experiences and various sources.</p>
-
-<h3>
-<a id="profile" class="anchor" href="#profile" aria-hidden="true"><span class="octicon octicon-link"></span></a>Professional Profile</h3>
-
-<p>I would be happy to hear about any suitable job openings matching my skills and experience. </p>
-<p>Check out my profile and recommendations at <a href="https://www.linkedin.com/in/sushmagoutam">LinkedIn</a></p>
-
-<h3>
-<a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Projects (source code provided upon request)</h3>
-<ul>
-  <li>
-  <p><a><b>Django Channels Project</b></a> Communication between different web socket clients using Django Channels</p>
-</li>
-<li>
-  <p><a><b>Robot Cleaner</b></a> Implemented using TDD approach</p>
-</li>
-<li>
-  <p><a><b>Poker Hand</b></a> Python implementation of a simplified Poker Hand game</p>
-</li>
- <li>
-  <p><a><b>Mars Rover</b></a> Python implementation of Mars Rover programming task using TDD approach</p>
-</li>
-<li>
-  <p><a href="http://write2sushma.github.io/OpenGL_Animation/"><b>Animation using OpenGL</b></a></p>
-</li>
-</ul>
-
-<h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h3>
-
-<p>Tweet me <a href="https://twitter.com/sushmag">here</a></p>
-
-<p>or</p>
-
-<p>Shoot me an <a href="mailto:write2sushma@gmail.com">email</a> and I will reply back to you asap.</p>
-      </section>
+    <!-- Main - Contents -->
+    <div id="contents" class="m-auto px-4 lg:my-20 child">
+      <div id="name" class="text-center lg:text-left text-6xl"></div>
+      <div id="role" class="text-center lg:text-left text-3xl"></div>
+      <div id="connects" class="text-center lg:text-left text-3xl my-4"></div>
+      <div id="links" class="text-center lg:text-left"></div>
+      
+      <a target="_top" id="mail" class="block text-center lg:text-left text-sm my-2"></a>
+      <h3>
+      <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Projects (source code provided upon request)</h3>
+      <ul>
+        <li>
+        <p><a><b>Django Channels Project</b></a> Communication between different web socket clients using Django Channels</p>
+      </li>
+      <li>
+        <p><a><b>Robot Cleaner</b></a> Implemented using TDD approach</p>
+      </li>
+      <li>
+        <p><a><b>Poker Hand</b></a> Python implementation of a simplified Poker Hand game</p>
+      </li>
+       <li>
+        <p><a><b>Mars Rover</b></a> Python implementation of Mars Rover programming task using TDD approach</p>
+      </li>
+      <li>
+        <p><a href="http://write2sushma.github.io/OpenGL_Animation/"><b>Animation using OpenGL</b></a></p>
+      </li>
+      </ul>
     </div>
 
     <!-- FOOTER  -->
@@ -75,18 +61,6 @@ You will also find some interesting stuff which is gathered from my career exper
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-70804772-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
+    </div>
   </body>
 </html>
