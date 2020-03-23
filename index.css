@@ -13,7 +13,7 @@
     top: 50%;
     height: 100vh;
     width: 80%;
-    margin-top: -170px; /* account for padding and border if not using box-sizing: border-box; */
+    margin-top: -185px; /* account for padding and border if not using box-sizing: border-box; */
     overflow: hidden;
   }
 
