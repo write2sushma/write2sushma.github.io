@@ -32,7 +32,7 @@ const main = {
     },
   ],
   links: [
-    { name: 'Projects', link: '#projects' },
-    { name: 'Blogs', link: '#blogs' }
+    { name: 'Projects', link: 'projects' },
+    { name: 'Blogs', link: 'blogs' }
   ]
 };
