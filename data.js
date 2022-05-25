@@ -21,11 +21,6 @@ const main = {
       link: 'https://www.linkedin.com/in/sushmagoutam/'
     },
     {
-      name: 'Twitter',
-      iconName: 'logo-twitter',
-      link: 'https://twitter.com/sushmag'
-    },
-    {
       name: 'Blog',
       iconName: 'person-outline',
       link: 'http://sushg.blogspot.com/'
